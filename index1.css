@@ -233,12 +233,12 @@ section{
 }
 @media (max-width:803px){
     .img{
-        margin: 90px 250px;
+        margin: 100px 250px;
     }
 }
 @media (max-width:641px){
     .img{
-        margin: 90px 150px;
+        margin: 100px 150px;
     }
     body{
         font-size: 12px;
@@ -252,12 +252,12 @@ section{
 }
 @media (max-width:505px){
     .img{
-        margin: 90px 100px;
+        margin: 100px 100px;
     }
 }
 @media (max-width:486px){
     .img{
-        margin: 90px 60px;
+        margin: 100px 60px;
     }
 }
 @media (max-width:300px){
@@ -268,37 +268,37 @@ section{
 }
 @media (max-width:441px){
     .img{
-        margin: 90px 20px;
+        margin: 100px 20px;
     }
 }
 @media (max-width:399px){
     .img{
-        margin: 90px -3px;
+        margin: 100px -3px;
     }
 }
 @media (max-width:376px){
     .img{
-        margin: 90px -15px;
+        margin: 100px -15px;
     }
 }
 @media (max-width:362px){
     .img{
-        margin: 90px -25px;
+        margin: 100px -25px;
     }
 }
 @media (max-width:348px){
     .img{
-        margin: 90px -35px;
+        margin: 100px -35px;
     }
 }
 @media (max-width:311px){
     .img{
-        margin: 90px -65px;
+        margin: 100px -65px;
     }
 }
 @media (max-width:293px){
     .img{
-        margin: 90px -110px;
+        margin: 100px -110px;
     }
     body{
         font-size: 5px;
