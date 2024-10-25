@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 *{
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Lexend", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,6 +33,19 @@ header{
 .nav:hover{
     color: cornflowerblue;
 }
+.nav::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff0000;
+    transition: 0.3s;
+}
+.nav:hover:after{
+    width: 100%;
+}
 section{
     padding: 100px 150px;
     background-color: #000;
@@ -42,10 +55,12 @@ section{
     min-height: 100vh;
     padding: 100px 50px;
     align-items: top center;
-    background-image: url(imgg.png);
-    background-repeat: no-repeat;
-    background-size:  contain;
-    background-position: 700px;
+    
+}
+.img{
+   display: block;
+   float: right;
+   margin: -370px 0px;
 }
 .main h2{
     color: #ffffff;
@@ -216,7 +231,15 @@ section{
         font-size: 1.6em;
     }
 }
+@media (max-width:803px){
+    .img{
+        margin: 90px 250px;
+    }
+}
 @media (max-width:641px){
+    .img{
+        margin: 90px 150px;
+    }
     body{
         font-size: 12px;
     }
@@ -227,13 +250,56 @@ section{
         font-size: 1.4em;
     }
 }
+@media (max-width:505px){
+    .img{
+        margin: 90px 100px;
+    }
+}
+@media (max-width:486px){
+    .img{
+        margin: 90px 60px;
+    }
+}
 @media (max-width:300px){
     body{
         font-size: 10px;
     }
 
 }
+@media (max-width:441px){
+    .img{
+        margin: 90px 20px;
+    }
+}
+@media (max-width:399px){
+    .img{
+        margin: 90px -3px;
+    }
+}
+@media (max-width:376px){
+    .img{
+        margin: 90px -15px;
+    }
+}
+@media (max-width:362px){
+    .img{
+        margin: 90px -25px;
+    }
+}
+@media (max-width:348px){
+    .img{
+        margin: 90px -35px;
+    }
+}
+@media (max-width:311px){
+    .img{
+        margin: 90px -65px;
+    }
+}
 @media (max-width:293px){
+    .img{
+        margin: 90px -110px;
+    }
     body{
         font-size: 5px;
     }
